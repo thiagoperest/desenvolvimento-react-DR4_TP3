@@ -26,6 +26,12 @@ export default function Home() {
       titulo: 'Select Controlado',
       descricao: 'Dropdown controlado exibindo a cidade selecionada',
       rota: '/exercicio-4'
+    },
+    {
+      id: 5,
+      titulo: 'Formulário de Login',
+      descricao: 'Formulário com email e senha que exibe os dados ao enviar',
+      rota: '/exercicio-5'
     }
   ]
 
