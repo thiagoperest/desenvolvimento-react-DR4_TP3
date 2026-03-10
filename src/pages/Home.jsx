@@ -14,6 +14,12 @@ export default function Home() {
       titulo: 'Checkbox Controlado',
       descricao: 'Checkbox controlado que altera o texto de status',
       rota: '/exercicio-2'
+    },
+    {
+      id: 3,
+      titulo: 'Textarea Controlado',
+      descricao: 'Textarea controlado com contador de caracteres',
+      rota: '/exercicio-3'
     }
   ]
 
