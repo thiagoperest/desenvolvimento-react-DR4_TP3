@@ -6,8 +6,14 @@ export default function Home() {
     {
       id: 1,
       titulo: 'Input Controlado Básico',
-      descricao: 'Input controlado exibindo o valor em tempo rea',
+      descricao: 'Input controlado exibindo o valor em tempo real',
       rota: '/exercicio-1'
+    },
+    {
+      id: 2,
+      titulo: 'Checkbox Controlado',
+      descricao: 'Checkbox controlado que altera o texto de status',
+      rota: '/exercicio-2'
     }
   ]
 
