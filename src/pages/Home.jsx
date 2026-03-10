@@ -20,6 +20,12 @@ export default function Home() {
       titulo: 'Textarea Controlado',
       descricao: 'Textarea controlado com contador de caracteres',
       rota: '/exercicio-3'
+    },
+    {
+      id: 4,
+      titulo: 'Select Controlado',
+      descricao: 'Dropdown controlado exibindo a cidade selecionada',
+      rota: '/exercicio-4'
     }
   ]
 
