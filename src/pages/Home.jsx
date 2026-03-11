@@ -32,6 +32,12 @@ export default function Home() {
       titulo: 'Formulário de Login',
       descricao: 'Formulário com email e senha que exibe os dados ao enviar',
       rota: '/exercicio-5'
+    },
+    {
+      id: 6,
+      titulo: 'Input Não Controlado com Ref',
+      descricao: 'Input não controlado que exibe o valor ao clicar em pesquisar',
+      rota: '/exercicio-6'
     }
   ]
 

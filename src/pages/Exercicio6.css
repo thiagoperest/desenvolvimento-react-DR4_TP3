@@ -1,0 +1,27 @@
+.exercicio-container {
+    background-color: #0081f1;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.exercicio-card {
+    background: white;
+    border-radius: 8px;
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.exercicio-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #0081f1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.exercicio-card h1 {
+    font-size: 1.8rem;
+    color: #0081f1;
+    margin: 8px 0 24px 0;
+}
