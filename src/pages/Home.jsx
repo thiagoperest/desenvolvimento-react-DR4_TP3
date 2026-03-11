@@ -38,6 +38,12 @@ export default function Home() {
       titulo: 'Input Não Controlado com Ref',
       descricao: 'Input não controlado que exibe o valor ao clicar em pesquisar',
       rota: '/exercicio-6'
+    },
+    {
+      id: 7,
+      titulo: 'Múltiplos Inputs Controlados',
+      descricao: 'Formulário com nome, email e telefone exibidos em tempo real',
+      rota: '/exercicio-7'
     }
   ]
 
