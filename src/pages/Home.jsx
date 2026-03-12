@@ -62,6 +62,12 @@ export default function Home() {
       titulo: 'Formulário com Múltiplos Tipos',
       descricao: 'Formulário com visualização ao enviar',
       rota: '/exercicio-10'
+    },
+    {
+      id: 11,
+      titulo: 'Lista de Tarefas com Formulário',
+      descricao: 'Adicionar, remover e filtrar tarefas por prioridade',
+      rota: '/exercicio-11'
     }
   ]
 
