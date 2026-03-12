@@ -8,6 +8,7 @@ import Exercicio5 from '../pages/Exercicio5'
 import Exercicio6 from '../pages/Exercicio6'
 import Exercicio7 from '../pages/Exercicio7'
 import Exercicio8 from '../pages/Exercicio8'
+import Exercicio9 from '../pages/Exercicio9'
 
 export function AppRoutes() {
   return (
@@ -21,6 +22,7 @@ export function AppRoutes() {
       <Route path="/exercicio-6" element={<Exercicio6 />} />
       <Route path="/exercicio-7" element={<Exercicio7 />} />
       <Route path="/exercicio-8" element={<Exercicio8 />} />
+      <Route path="/exercicio-9" element={<Exercicio9 />} />
     </Routes>
   )
 }

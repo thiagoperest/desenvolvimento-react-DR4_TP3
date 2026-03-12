@@ -1,0 +1,16 @@
+.entrada-busca-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    color: #ddd;
+    transition: border-color 0.3s ease;
+}
+
+.entrada-busca-input:focus {
+    border-color: #0081f1;
+}

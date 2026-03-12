@@ -50,6 +50,12 @@ export default function Home() {
       titulo: 'Validação Simples',
       descricao: 'Formulário de senha com validação e botão com condicional',
       rota: '/exercicio-8'
+    },
+    {
+      id: 9,
+      titulo: 'Elevação de Estado',
+      descricao: 'Estado compartilhado entre componentes via props',
+      rota: '/exercicio-9'
     }
   ]
 
