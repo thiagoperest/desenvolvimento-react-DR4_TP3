@@ -1,0 +1,13 @@
+.resultado-busca {
+    font-size: 1.1rem;
+    color: #333;
+    background: #f5f9ff;
+    padding: 14px 18px;
+    border-radius: 6px;
+    border-left: 4px solid #0081f1;
+    margin: 0;
+}
+
+.resultado-busca strong {
+    color: #0081f1;
+}

@@ -1,0 +1,36 @@
+.nome-usuario-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nome-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    font-family: inherit;
+    color: #333;
+}
+
+.nome-input:focus {
+    border-color: #0081f1;
+}
+
+.nome-display {
+    font-size: 1.1rem;
+    color: #333;
+    background: #f5f9ff;
+    padding: 14px 18px;
+    border-radius: 6px;
+    border-left: 4px solid #0081f1;
+    margin: 0;
+}
+
+.nome-display strong {
+    color: #0081f1;
+}
