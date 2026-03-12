@@ -44,6 +44,12 @@ export default function Home() {
       titulo: 'Múltiplos Inputs Controlados',
       descricao: 'Formulário com nome, email e telefone exibidos em tempo real',
       rota: '/exercicio-7'
+    },
+    {
+      id: 8,
+      titulo: 'Validação Simples',
+      descricao: 'Formulário de senha com validação e botão com condicional',
+      rota: '/exercicio-8'
     }
   ]
 
