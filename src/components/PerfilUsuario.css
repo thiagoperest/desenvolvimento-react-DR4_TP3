@@ -1,0 +1,85 @@
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.perfil-input,
+.perfil-select,
+.perfil-textarea {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    color: #333;
+    background: white;
+    transition: border-color 0.3s ease;
+}
+
+.perfil-input:focus,
+.perfil-select:focus,
+.perfil-textarea:focus {
+    border-color: #0081f1;
+}
+
+.perfil-textarea {
+    height: 120px;
+    resize: none;
+}
+
+.perfil-label-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.perfil-label-checkbox input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #0081f1;
+}
+
+.perfil-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0081f1;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.perfil-btn:hover {
+    background-color: #006bcc;
+}
+
+.perfil-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #f5f9ff;
+    padding: 14px 18px;
+    border-radius: 6px;
+    border-left: 4px solid #0081f1;
+}
+
+.perfil-preview p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.perfil-preview strong {
+    color: #0081f1;
+}

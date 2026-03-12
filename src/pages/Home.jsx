@@ -56,6 +56,12 @@ export default function Home() {
       titulo: 'Elevação de Estado',
       descricao: 'Estado compartilhado entre componentes via props',
       rota: '/exercicio-9'
+    },
+    {
+      id: 10,
+      titulo: 'Formulário com Múltiplos Tipos',
+      descricao: 'Formulário com visualização ao enviar',
+      rota: '/exercicio-10'
     }
   ]
 
