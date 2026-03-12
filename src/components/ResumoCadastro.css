@@ -1,0 +1,32 @@
+.resumo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.resumo-titulo {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0081f1;
+    margin: 0;
+}
+
+.resumo-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #f5f9ff;
+    padding: 14px 18px;
+    border-radius: 6px;
+    border-left: 4px solid #0081f1;
+}
+
+.resumo-preview p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.resumo-preview strong {
+    color: #0081f1;
+}

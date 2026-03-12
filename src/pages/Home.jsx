@@ -68,6 +68,12 @@ export default function Home() {
       titulo: 'Lista de Tarefas com Formulário',
       descricao: 'Adicionar, remover e filtrar tarefas por prioridade',
       rota: '/exercicio-11'
+    },
+    {
+      id: 12,
+      titulo: 'Formulário de Cadastro com Validação',
+      descricao: 'Cadastro completo com validações em tempo real',
+      rota: '/exercicio-12'
     }
   ]
 
